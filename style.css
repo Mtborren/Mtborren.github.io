@@ -2,11 +2,16 @@ header{
     color:white;
     background-color:red;
     text-align: center;
+    height: 60%;
 }
 
 footer{
     position: absolute;
+    width: 98%;
     bottom: 10px;
+    color: white;
     background-color: red;
     text-align:center;
+
 }
+
