@@ -1,0 +1,12 @@
+header{
+    color:white;
+    background-color:red;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    background-color: red;
+    text-align:center;
+}
