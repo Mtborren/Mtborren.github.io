@@ -50,7 +50,7 @@ footer{
     border-style: solid;
     background-image: url(https://image.shutterstock.com/image-vector/cartoon-alien-looks-out-flying-260nw-256436296.jpg);
     padding: 85px;
-    width: 50%;
+    width: 39%;
 }
 
 .asideCont{
@@ -88,6 +88,7 @@ table{
 th{
     border-style: solid;
     border-radius: 5px;
+    background-color: lightgray;
     margin: 1px;
     display: inline-block;
     padding: 10px;
@@ -101,6 +102,7 @@ th{
 td{
     border-style: solid;
     border-radius: 5px;
+    background-color: lightgray;
     margin: 1px;
     display: inline-block;
     padding: 10px;
