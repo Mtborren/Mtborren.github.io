@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <style>
-        p {
+        #coolStuff {
             color: white;
         }
     </style>
@@ -11,42 +11,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Raleway&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <header>
-        <h1>MTBorren</h1>
-        <a href="Homework\README.md">readme</a>
+        <ul id="navBar">
+            <li id="title" class="nav"><a href="index.html">Mtborren</a></li>
+            <li class="nav"><a href="text.txt">textFile</a></li>
+            <li class="nav"><a href="">anotherLink</a></li>
+            <li class="nav"><a href="">andAnother</a></li>
+        </ul>
     </header>
+<br>
     <div class="content-container">
         <section class="content">
             <h1>Some really cool content</h1>
             <p id="coolStuff">like, the coolest stuff.</p>
         </section>
     </div>
-    <section class="links">
+<br>
+    <aside id="theAside">
+        <p class="asidecont">Some content for the aside.</p><p class="asidecont">Again, this is some pretty cool content.</p>
+    </aside>
+
+    <section>
         <h1>Here are some cool websites I found!</h1>
-            <ul>
-                <li><a href="https://www.adultswim.com/toonami/" target="_blank">Toonami</a></li>
+            <ul id="links">
+                <li class="link"><a href="https://www.adultswim.com/toonami/" target="_blank">Toonami</a></li>
                 <br>
-                <li><a href="https://2050.earth/" target="_blank">Earth2050</a></li>
+                <li class="link"><a href="https://2050.earth/" target="_blank">Earth2050</a></li>
                 <br>
-                <li><a href="https://craftprlaboratory.com/vision/" target="_blank">CraftPRLab</a></li>
+                <li class="link"><a href="https://craftprlaboratory.com/vision/" target="_blank">CraftPRLab</a></li>
                 <br>
-                <li><a href="https://maxilla.jp/en/works" target="_blank">Maxilla</a></li>
+                <li class="link"><a href="https://maxilla.jp/en/works" target="_blank">Maxilla</a></li>
                 <br>
-                <li><a href="https://miragefestival.com" target="_blank">Mirage</a></li>
+                <li class="link"><a href="https://miragefestival.com" target="_blank">Mirage</a></li>
             </ul>
     </section>
+<br>
     <div id="futurama">
         <q>
             You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus?
 Guess again. Why did you bring us here? What kind of a father would I be if I said no? I saw you with those two "ladies of the evening" at Elzars. Explain that.
 What kind of a father would I be if I said no? I am the man with no name, Zapp Brannigan! Negative, bossy meat creature! There's one way and only one way to determine if an animal is intelligent. Dissect its brain!
-        </q> <span>-Zapp Brannigan</span>
+        </q> <span id="zapp">-Zapp Brannigan</span>
     </div>
+    <br>
+    <div>
+    <section>
+        <table>
+            <ul>
+                <tr id="ordered">
+                    <th>Unordered</th>
+                    <td>itemA</td>
+                    <td>itemB</td>
+                    <td>itemC</td>
+                </tr>
+            </ul>
+            <ol>
+                <tr id="unordered">
+                    <th>Ordered</th>
+                    <td>item1</td>
+                    <td>item2</td>
+                    <td>item</td>
+                </tr>
+            </ol>
+            <ul>
+                <tr>
+                    <td><img id="fry" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcMnGh6KRSEA8MCuaBt4E9jm-rUR5qluEvXD-5hTu_NbKfrZXH"></td>
+                    <td><img id="bender" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPHsyej-dZmMBqfRG_XKFjPFDlceLi09Wsjk7rO7Uc-pG8erp"></td>
+                </tr>
+            </ul>
+        </table>
+    </section>
+    </div>
+    <br>
+    <div>
+        <table id="form">
+            <br>
+            <caption><h1>Want to hire me?</h1></caption>
+            <tr>
+                <th>Who are you?</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>What do you need done?</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Are you willing to pay me?</th>
+                <td><input type="radio"> YE$    <input type="radio"> N&#128533  </td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <section>
         <footer>
-            <p></p>
+            <p>Thanks for looking at my page!</p>
         </footer>
-</body>
+</body> 
 </html>
