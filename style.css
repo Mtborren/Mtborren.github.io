@@ -44,7 +44,6 @@ footer{
     font-family: 'Odibee Sans', cursive;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
-    text
 } 
 
 #theAside{
@@ -83,10 +82,18 @@ button{
     float: left;
 }
 
+.navBar--home:hover{
+    transform: rotateY(180deg);
+}
+
 .navBar--text{
     margin: 10px;
     margin-right: 80px;
     margin-left: 30px;
+}
+
+.navBar--text:hover{
+    transform: rotateY(180deg);
 }
 
 .navBar--f1{
@@ -95,11 +102,19 @@ button{
     margin-left: 80px
 }
 
+.navBar--f1:hover{
+    transform: rotateY(180deg);
+}
+
 .navBar--f2{
     margin-top: 10px;
     margin-right: 60px;
     margin-left: 30px;
     float: right;
+}
+
+.navBar--f2:hover{
+    transform: rotateY(180deg);
 }
 
 div{
@@ -155,12 +170,14 @@ td{
 }
 #fry{
     display: inline-block;
-    height: 222px;
+    height: 20vh;
+    margin: auto;
 }
 
 #bender{
     display: inline-block;
-    height: 222px;
+    height: 20vh;
+    margin: auto;
 }
 
 #form{
@@ -198,4 +215,10 @@ input[type=submit]{
 .question{
     height: 46px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width:50%;
+    }
 }
