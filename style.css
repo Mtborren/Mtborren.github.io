@@ -215,6 +215,30 @@ input[type=submit]{
     width: 100px;
 }
 
+#ufo{
+    display: inline-flex;
+    width: 150px;
+    border-style: 1px hidden gray;
+}
+
+#ufo:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 150px;
+    margin-bottom: 10px;
+}
+
+#sub:hover{
+    background: rgb(0,255,255);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px gray, 1px 1px gray, 1px 1px gray; 
+    transform: translateX(-3px);
+    
+}
+
 .question{
     height: 46px;
     font-size: 20px;
@@ -223,5 +247,17 @@ input[type=submit]{
 @media screen and (max-width: 600px){
     .column{
         width:50%;
+    }
+}
+
+@keyframes grow{
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(540deg);
     }
 }
