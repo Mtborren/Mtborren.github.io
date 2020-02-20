@@ -11,12 +11,15 @@
 
 function myTimer(){
     let input = parseInt(document.getElementById("userInput").value);
+    if(!isNaN(input) && input > 0){
     let clock = setInterval(function(){
         document.getElementById("timer").innerHTML = input;
         input--; 
     }, 1000);
+} else if(input <= 0){
+    alert("DONE!");
 }
-
+}
 
 
 
