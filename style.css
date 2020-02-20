@@ -258,6 +258,5 @@ input[type=submit]{
         transform: rotate(360deg);
     }
     100%{
-        transform: rotate(540deg);
-    }
+        transform: scale(2.0);
 }
