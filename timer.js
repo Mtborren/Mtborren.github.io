@@ -9,23 +9,38 @@
 //     }
 // }
 
+
+
+
+
+// function myTimer(){          //working code, but doesn't stop at zero.
+//     let input = parseInt(document.getElementById("userInput").value);
+//     if(!isNaN(input) && input >= 0){
+//     setInterval(function(){
+//         document.getElementById("timer").innerHTML = input;
+//         input--; 
+//     }, 1000);
+//     } else if(input === 0){
+//         document.getElementById("timer").innerHTML = input;
+//         console.log("DONE!"); //change to alert once code above is correct
+// }
+// }
+
+
 function myTimer(){
     let input = parseInt(document.getElementById("userInput").value);
-    if(!isNaN(input) && input > 0){
-    let clock = setInterval(function(){
-        document.getElementById("timer").innerHTML = input;
-        input--; 
+    setInterval(function(){
+        if(!isNaN(input) && input >= 0){
+            document.getElementById("timer").innerHTML = input;
+            input--;
+        } else {
+            document.getElementById("timer").innerHTML = "DONE!";
+            document.getElementById("timer").style.color = "crimson";
+            document.getElementById("timer").style.fontSize = "xx large";
+            return;
+        }
     }, 1000);
-} else if(input <= 0){
-    alert("DONE!");
 }
-}
-
-
-
-
-
-
 
 
 
